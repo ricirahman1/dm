@@ -1,0 +1,284 @@
+body {
+  color: white;
+  font-size: 5vh;
+  line-height: 7vh;
+}
+
+.header {
+  width: 100vw;
+  height: 7vh;
+  background-color: #052e87;
+}
+
+.header-left-stack {
+  float: left;
+  margin-left: 1vw;
+  font-size: 5vh;
+  line-height: 7vh;
+  color: white;
+}
+
+.content {
+  height: 92vh;
+  width: 100vw;
+  line-height: 5vh;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.content-top {
+  float: left;
+  padding-bottom: 0.4vw;
+  width: 100%;
+  height: 70%;
+}
+
+.content-left {
+  float: left;
+  padding-right: 0.4vw;
+  padding-top: 0.8vw;
+  padding-left: 0.8vw;
+  height: 100%;
+  width: 65%;
+}
+
+.content-fishbone {
+  background-color: #c4dffe;
+  border-radius: 2vh;
+  height: 100%;
+  width: 100%;
+  padding: 0.5vw;
+}
+
+.title {
+  font-size: 4vh;
+  height: 2vh;
+  width: 50%;
+  text-align: left;
+  margin-left: 2vh;
+
+  color: #052e87;
+}
+
+.content-title-sub {
+  width: 100%;
+  float: left;
+  font-size: 4vh;
+  line-height: 4vh;
+  color: #052e87;
+}
+
+.information {
+  padding-left: 0.3vw;
+  float: left;
+  font-size: 3vh;
+}
+
+.information-select {
+  float: left;
+  padding-left: 0.5vw;
+  font-size: 3vh;
+}
+
+.img-fish {
+  width: 50vw;
+  height: 15vw;
+  margin-left: 10vh;
+}
+
+.box {
+  display: flex;
+  float: left;
+}
+
+.box2 {
+  display: flex;
+  float: left;
+}
+
+.content-box-data {
+  float: left;
+  background-color: white;
+  width: 12vw;
+  height: 10vh;
+  margin-top: 2vh;
+  margin-left: 2vh;
+  margin-right: 8vh;
+  border-radius: 1vh;
+  border-color: #052e87;
+}
+
+.content-box-information {
+  text-align: left;
+  margin-left: 2vh;
+  font-size: 2vh;
+  color: #052e87;
+}
+
+.content-box-data2 {
+  float: left;
+  background-color: white;
+  width: 12vw;
+  height: 10vh;
+
+  margin-left: 2vh;
+  margin-right: 8vh;
+  border-radius: 1vh;
+  border-color: #052e87;
+}
+
+.content-box-information2 {
+  text-align: left;
+  margin-left: 2vh;
+  font-size: 2vh;
+  color: #052e87;
+}
+
+.content-right {
+  float: left;
+  padding-top: 0.8vw;
+  padding-right: 0.8vw;
+  padding-left: 0.4vw;
+  height: 100%;
+  width: 35%;
+}
+
+.content-5why {
+  background-color: #c4dffe;
+  border-radius: 2vh;
+  height: 100%;
+  width: 100%;
+  padding: 0.5vw;
+}
+
+.title-header {
+  padding: 2vh;
+  font-size: 5vh;
+  line-height: 3vh;
+  color: #052e87;
+}
+
+.conten-5why-information {
+  font-size: 3vh;
+  line-height: 5vh;
+  color: #052e87;
+  padding-left: 2vh;
+}
+
+.box-why {
+  float: left;
+  background-color: #eef6ff;
+  width: 29vw;
+  height: 5vh;
+  margin-left: 2vh;
+  margin-right: 8vh;
+  border-radius: 1vh;
+  box-shadow: #daebfe;
+}
+
+.content-title {
+  height: 3vh;
+  width: 100%;
+  text-align: center;
+}
+
+.content-buttom {
+  float: left;
+  padding-bottom: 0.4vw;
+  width: 100%;
+  height: 30%;
+}
+
+.content-buttom-left {
+  padding: 0.2vw;
+  float: left;
+  padding-left: 0.8vw;
+  padding-right: 0.4vw;
+  height: 100%;
+  width: 65%;
+}
+
+.content-table {
+  border-radius: 2vh;
+  height: 100%;
+  width: 100%;
+}
+
+.content-information {
+  width: 100%;
+  font-size: 0.9vw;
+  color: black;
+  line-height: -1vh;
+}
+
+.table > thead {
+  background-color: #052e87;
+}
+
+.table > thead > tr {
+  color: white;
+}
+
+.table > thead > tr > td {
+  color: white;
+  text-align: center;
+}
+
+.table > thead > tr > th {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table > tbody > tr.row-1 > td {
+  line-height: 110%;
+  padding: 0.3vh 0.3vw;
+  background-color: #c4dffe;
+}
+
+.table > tbody > tr.row-2 > td {
+  line-height: 110%;
+  padding: 0.3vh 0.3vw;
+  background-color: #daebfe;
+}
+
+.table-bordered > tbody > tr > td {
+  border: 1px solid white;
+}
+
+.content-buttom-right {
+  padding: 0.2vw;
+  float: left;
+  padding-right: 0.8vw;
+  padding-left: 0.4vw;
+  height: 100%;
+  width: 35%;
+}
+
+.content-root {
+  background-color: #052e87;
+  border-radius: 2vh;
+  height: 100%;
+  width: 100%;
+  padding: 0.5vw;
+}
+
+.title-header-root {
+  padding: 1vh;
+  font-size: 3vh;
+  line-height: 2vh;
+  color: white;
+}
+
+.content-root-information {
+  font-size: 2vh;
+  line-height: 4vh;
+  color: white;
+  padding-left: 4vh;
+}
+
+.title-foot-root {
+  padding: 1vh;
+  font-size: 3vh;
+  line-height: 2vh;
+  color: white;
+}

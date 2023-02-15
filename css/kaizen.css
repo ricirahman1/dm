@@ -1,0 +1,94 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: Auto auto ;
+    gap: 10px;
+    background-color: white;
+    padding: 20px;
+}
+.grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    gap: 10px;
+    background-color: white;
+    padding: 20px;
+    margin-top: -20px;
+}
+
+.grid-container>div {
+    background-color:#C4DFFE;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.bg {
+    background-color: #C4DFFE;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 10px;
+}
+
+.card {
+    margin: 10px;
+}
+
+.category{
+    display:grid;
+    background-color: #C4DFFE;
+}
+
+#kaizen {
+    background-color: #052e87;
+    border-radius: 10px;
+   
+    width: 25%;
+    height: 220px;
+}
+
+#kaizen2 {
+    background-color: #052e87;
+    border-radius: 10px;
+    
+    width: 25%;
+}
+
+#kaizen3 {
+    background-color: #052e87;
+    border-radius: 10px;
+   
+    width: 25%;
+}
+.text{
+    color: #052e87;
+    float: left;
+    margin-left: 10px;
+}
+.bar{
+    margin-top: -10px;
+}
+.gambar {
+    width: 30px;
+    height: 30px;
+}
+
+p{
+    font-size: 20px;
+    color: #052e87;
+}
+
+.bg-g{
+    color: chartreuse;
+}
+.bg-r{
+    color: red;
+}
+h4{
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: left;
+    color: #052e87;
+}
+i{
+    color: white;
+    margin: 10px;
+    margin-left: 20px;
+}

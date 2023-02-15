@@ -1,0 +1,74 @@
+.bg-primary {
+  background-color: #052e87 !important;
+}
+
+.bg-blue {
+  background-color: #f0f7fd !important;
+}
+
+.judul {
+  background-color: #052e87;
+  margin-top: 10px;
+  border-radius: 10px 10px 10px 10px;
+  height: 30px;
+}
+
+.kolom1 {
+  background-color: #c4dffe;
+  color: #052e87;
+}
+
+.kolom2 {
+  background-color: #b7d2f0;
+  color: #052e87;
+  border-radius: 0px 0px 10px 10px;
+}
+
+
+.flex-container {
+  display: flex;
+  background-color:#000; ;
+}
+
+.flex-container>div {
+  background-color: #0d2324;
+  margin: 2px;
+  padding: 5px;
+  border-top: #f0f7fd;
+  border-style: hidden;
+  font-size: 30px;
+  width: 100px;
+
+ 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left {
+  background-color: #f1f1f1;
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  background-color: dodgerblue;
+  padding: 10px;
+  flex: 50%;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+

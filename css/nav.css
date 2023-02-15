@@ -1,0 +1,192 @@
+body {
+  color: white;
+  font-size: 2vw;
+  line-height: 2vw;
+  background-color: #052E87;
+  
+}
+
+.header {
+  width: 100vw;
+  height: 4vw;
+  background-color: #042366;
+}
+
+.header-left-stack {
+  float: left;
+  margin-left: 1vw;
+  font-size: 2.5vw;
+  line-height: 4vw;
+  color: white;
+}
+
+.content {
+  width: auto;
+  padding: 6vh;
+  
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 25vh 25vh 25vh;
+  gap: 0.2vh;
+  background-color:white;
+  padding: 0.2vh;
+}
+
+.grid-container>div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+
+.item6 {
+  grid-area: 3 / 2 / 2 / 4;
+  grid-row: 2 / span 2;
+
+}
+
+/*button*/
+.item1 {
+  background-color: #052E87;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.item1:hover {
+  background-color: #0b2a6c;
+  color: white;
+}
+
+.item2 {
+  background-color: #052E87;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.item2:hover {
+  background-color: #0b2a6c;
+  color: white;
+}
+
+.item3 {
+  background-color: #052E87;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.item3:hover {
+  background-color: #0b2a6c;
+  color: white;
+}
+
+.item4 {
+  background-color: #052E87;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.item4:hover {
+  background-color: #0b2a6c;
+  color: white;
+}
+
+.item5 {
+  background-color: #052E87;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.item5:hover {
+  background-color: #0b2a6c;
+  color: white;
+}
+
+.item6 {
+  background-color: #052E87;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.item6:hover {
+  background-color: #0b2a6c;
+  color: white;
+}
+
+.item7 {
+  background-color: #052E87;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.item7:hover {
+  background-color: #0b2a6c;
+  color: white;
+}
+
+.item8 {
+  background-color: #052E87;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.item8:hover {
+  background-color: #0b2a6c;
+  color: white;
+}
+
+.item9 {
+  background-color: #052E87;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.item9:hover {
+  background-color: #0b2a6c;
+  color: white;
+}
+
+.button{
+  cursor: move;
+}
+
+p{
+  font-size: 1.2vw;
+  margin-top: 2vh;
+}
+
+img{
+  width: 2.5vw;
+}
+
+.daily-icon{
+  width: 20vw;
+  margin: 2vh;
+}

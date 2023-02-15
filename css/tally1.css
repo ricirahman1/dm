@@ -1,0 +1,93 @@
+body {
+  color: white;
+  font-size: 5vh;
+  line-height: 7vh;
+}
+
+.header {
+  width: 100vw;
+  height: 7vh;
+  background-color: #052e87;
+}
+
+.header-left-stack {
+  float: left;
+  margin-left: 1vw;
+  font-size: 5vh;
+  line-height: 7vh;
+  color: white;
+}
+
+.content {
+  width: 100vw;
+  height: 93vh;
+  padding: 0vh;
+}
+
+.content-title {
+  width: 100vw;
+  height: 7vh;
+}
+
+.content-title-sub {
+  width: 100%;
+  height: 100%;
+  float: left;
+  font-size: 2.5vh;
+  line-height: 4vh;
+  color: white;
+}
+
+.information {
+  padding-left: 1vw;
+  float: left;
+  font-size: 3vh;
+}
+
+.information-select {
+  float: left;
+  padding-left: 0.5vw;
+  font-size: 3vh;
+  color: #052e87;
+}
+
+.content-information {
+  width: 100%;
+  height: 86vh;
+  padding: 1vh 1vw;
+  overflow-x: auto;
+  overflow-y: auto;
+  font-size: 2vh;
+  color: black;
+  line-height: 2vh;
+}
+
+.table > thead {
+  background-color: #052e87;
+}
+
+.table > thead > tr {
+  color: white;
+  text-align: center;
+}
+
+.table > thead > tr > th {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table > tbody > tr.row-1 > td {
+  line-height: 110%;
+  padding: 0.3vh 0.3vw;
+  background-color: #c4dffe;
+}
+
+.table > tbody > tr.row-2 > td {
+  line-height: 110%;
+  padding: 0.3vh 0.3vw;
+  background-color: #daebfe;
+}
+
+.table-bordered > tbody > tr > td {
+  border: 1px solid white;
+}

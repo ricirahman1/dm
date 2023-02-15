@@ -1,0 +1,48 @@
+.content-table {
+
+  border-radius: 2vh;
+  height: 100%;
+  width: 100%;
+
+}
+
+.content-information {
+  width: 100%;
+  font-size: 1vw;
+  color: black;
+  line-height: 0vh;
+}
+
+.table>thead {
+  background-color: #052E87;
+}
+
+.table>thead>tr {
+  color: white;
+}
+
+.table>thead>tr>td {
+  color: white;
+  text-align: center;
+}
+
+.table>thead>tr>th {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table>tbody>tr.row-1>td {
+  line-height: 110%;
+  padding: 0.3vh 0.3vw;
+  background-color: #C4DFFE;
+}
+
+.table>tbody>tr.row-2>td {
+  line-height: 110%;
+  padding: 0.3vh 0.3vw;
+  background-color: #DAEBFE;
+}
+
+.table-bordered>tbody>tr>td {
+  border: 1px solid white;
+}

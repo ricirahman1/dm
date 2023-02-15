@@ -1,0 +1,28 @@
+bg-primary {
+  background-color: #052e87 !important;
+}
+
+.bg-blue {
+  background-color: #f0f7fd !important;
+}
+.test1 {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.judul {
+  background-color: #f0f7fd;
+  margin-top: 10px;
+}
+
+.kotak1 {
+  width: 100%;
+  height: 500px;
+  justify-content: center;
+  border-top: 1px solid #052e87;
+  border-bottom: 1px solid #052e87;
+  border-left: 1px solid #052e87;
+  border-right: 1px solid #052e87;
+ 
+}
+

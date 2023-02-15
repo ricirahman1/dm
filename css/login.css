@@ -1,0 +1,39 @@
+.bg-blue {
+  background-color: #daebfe;
+}
+
+.container-fluid {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 50px;
+  bottom: 50px;
+}
+
+.row {
+  height: 620px;
+  border-radius: 20px;
+}
+
+.foto {
+  width: 300px;
+  height: 300px;
+  margin-top: 70px;
+}
+
+#text {
+  margin-top: 160px;
+}
+
+.mb-3 {
+  width: 400px;
+  margin: 20px auto;
+}
+
+.form {
+  border-radius: 20px;
+  background-color: #d6e9fe;
+  border: none;
+  width: 400px;
+  height: 35px;
+}
